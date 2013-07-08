@@ -1,0 +1,21 @@
+<%= render 'shared/error_messages', :object=>  f.object %>
+
+<%= hidden_field(:user, :username) %>
+
+
+
+<h3>Title of Course</h3>
+
+<%= f.text_field :status%>
+<h3>Subject Description</h3>
+
+<%= f.text_field :location %>
+
+<%= f.label :When  %>
+<%= f.text_field :school %>
+
+<%= f.label :password %>
+<%= f.password_field :password %>
+
+<%= f.label :password_confirmation, "Confirmation" %>
+<%= f.password_field :password_confirmation %>
